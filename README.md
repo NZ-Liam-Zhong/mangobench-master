@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/mangobench.png" width="300px"/>
+<img src="assets/mangobench.png" width="900px"/>
 
 <div id="user-content-toc">
   <ul align="center" style="list-style: none;">

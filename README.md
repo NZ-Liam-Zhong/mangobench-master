@@ -38,6 +38,9 @@ We offer three algorithms for baselines.
 ### How to run the code
 We can run the code by running the bash file: ```bash impls/hyperparameters_multi.sh```
 
+# WandB Evaluation
+<img src="assets/comparison_benchmark.png" width="500px"/>
+
 # Results
 <div align="center">
 <img src="assets/results.png" />

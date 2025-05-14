@@ -18,7 +18,7 @@
 MangoBench is a multi-agent goal-conditional offline RL benchmark. Our benchamrk is based on [MUJOCO](https://github.com/google-deepmind/mujoco),[MaMujoco](https://robotics.farama.org/envs/MaMuJoCo/index.html),[OGBench](https://seohong.me/projects/ogbench/).
 
 # Comparison with other Multi-agent Benchmark
-<img src="assets/comparison_benchamrk.png" width="900px"/>
+<img src="assets/comparison_benchmark.png" width="900px"/>
 
 # How to use the MANGOBench environments
 

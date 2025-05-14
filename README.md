@@ -14,6 +14,7 @@
 </div>
 
 # Overview
+Goal-conditioned offline reinforcement learning is an important field in modern reinforcement learning for its simplicity and universality.It is especially essential in multi-agent settings, where manually designing or shaping rewards is notoriously difficult, and iteratively collecting experience through environmental interaction is both costly and risky. Despite its importance in multi-agent settings, there is currently a lack of algorithms. Therefore, we propose MangoBench, the first multi-agent goal-conditioned offline reinforcement learning benchmark. MangoBench consists of $3$ environments, $4$ types of agents, $51$ tasks with different levels of challenges and $3$ baseline algorithms designed by ourselves, including goal-conditioned multi-agent behavior cloning, independent contrastive reinforcement learning, and independent hierarchical implicit Q-learning. Experiments demonstrate that independent hierarchical implicit Q-learning emerges as the state-of-the-art algorithm for multi-agent offline goal-conditioned tasks among the three baseline algorithms. We hope that this benchmark can contribute to the multi-agent learning academic field.
 
 MangoBench is a multi-agent goal-conditional offline RL benchmark. Our benchamrk is based on [MUJOCO](https://github.com/google-deepmind/mujoco),[MaMujoco](https://robotics.farama.org/envs/MaMuJoCo/index.html),[OGBench](https://seohong.me/projects/ogbench/).
 

@@ -1,6 +1,3 @@
-<div align="center">
-<img src="assets/mangobench.png" width="900px"/>
-
 <div id="user-content-toc">
   <ul align="center" style="list-style: none;">
     <summary>
@@ -8,6 +5,10 @@
     </summary>
   </ul>
 </div>
+
+<div align="center">
+<img src="assets/mangobench.png" width="900px"/>
+
 
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8%2B-598BE7?style=for-the-badge&logo=python&logoColor=598BE7&labelColor=F0F0F0"/></a> &emsp;
 <a href="https://pypi.org/project/ogbench/"><img src="https://img.shields.io/pypi/v/ogbench?style=for-the-badge&labelColor=F0F0F0&color=598BE7"/></a> &emsp;

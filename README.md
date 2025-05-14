@@ -33,9 +33,9 @@ MangoBench follow the environment and datasets of [OGBench](https://seohong.me/p
 ### Algorithms
 We offer three algorithms for baselines.
 
-1. ICRL (Independent Contrastive Reinforcement Learning): Located in ```impls/agents/crl.py```
-2. MAGCBC (Multi-agent Goal-Conditional Behaviour Cloning): Located in ```impls/agents/gcbc.py```
-3. IHIQL (Independent Hierarchical Implicit Q-Learning): Located in ```impls/agents/hiql.py```
+1. \textbf{ICRL} (Independent Contrastive Reinforcement Learning): Located in ```impls/agents/crl.py```
+2. \textbf{MAGCBC} (Multi-agent Goal-Conditional Behaviour Cloning): Located in ```impls/agents/gcbc.py```
+3. \textbf{IHIQL} (Independent Hierarchical Implicit Q-Learning): Located in ```impls/agents/hiql.py```
 
 ### How to run the code
 We can run the code by running the bash file: ```bash impls/hyperparameters_multi.sh```

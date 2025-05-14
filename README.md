@@ -24,7 +24,7 @@ MangoBench is a multi-agent goal-conditional offline RL benchmark. Our benchamrk
 
 ### Installation
 
-MangoBench follow the environemnt and datasets of [OGBench](https://seohong.me/projects/ogbench/).
+MangoBench follow the environment and datasets of [OGBench](https://seohong.me/projects/ogbench/).
 
 
 

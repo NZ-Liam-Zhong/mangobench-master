@@ -1,10 +1,10 @@
 <div align="center">
-<img src="assets/ogbench.svg" width="300px"/>
+<img src="assets/mangobench.png" width="300px"/>
 
 <div id="user-content-toc">
   <ul align="center" style="list-style: none;">
     <summary>
-      <h1>OGBench: Benchmarking Offline Goal-Conditioned RL</h1>
+      <h1>MangoBench: Benchmarking Multi-Agent Offline Goal-Conditioned Reinforcement Learning</h1>
     </summary>
   </ul>
 </div>

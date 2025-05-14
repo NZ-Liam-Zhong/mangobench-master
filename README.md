@@ -1,7 +1,7 @@
 <div id="user-content-toc">
   <ul align="center" style="list-style: none;">
     <summary>
-      <h1>MangoBench: Benchmarking Multi-Agent Offline Goal-Conditioned Reinforcement Learning</h1>
+      <h1>MangoBench: Benchmarking Multi-Agent Goal-Conditioned Offline Reinforcement Learning</h1>
     </summary>
   </ul>
 </div>

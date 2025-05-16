@@ -28,7 +28,39 @@ MangoBench is a multi-agent goal-conditional offline RL benchmark. Our benchamrk
 
 ### Installation
 
-MangoBench follow the environment and datasets of [OGBench](https://seohong.me/projects/ogbench/).
+MangoBench follow the environment and datasets of [OGBench](https://seohong.me/projects/ogbench/), which can be easily installed via PyPI:
+
+```shell
+pip install ogbench
+```
+
+It requires Python 3.8+ and has only three dependencies: `mujoco >= 3.1.6`, `dm_control >= 1.0.20`,
+and `gymnasium`.
+
+### Quick start
+
+After installing OGBench, you can create an environment and datasets using `ogbench.make_env_and_datasets`.
+The environment follows the [Gymnasium](https://gymnasium.farama.org/) interface.
+The datasets will be automatically downloaded during the first run.
+
+#### How to use the reference implementations
+
+ Jax-based reference implementations of the algorithms are shown as follows.
+They are provided in the `impls` directory as a **standalone** codebase.
+You can safely remove the other parts of the repository if you only need the reference implementations
+and do not want to modify the environments.
+
+Our reference implementations require Python 3.9+ and additional dependencies, including `jax >= 0.4.26`.
+To install these dependencies, run:
+
+```shell
+cd impls
+pip install -r requirements.txt
+```
+
+By default, it uses the PyPI version of OGBench.
+If you want to use a local version of OGBench (e.g., for training methods on modified environments),
+run instead `pip install -e ".[train]"` in the root directory.
 
 ### How to run and evaluate
 We can directly run the code by running the bash file: ```bash impls/hyperparameters_multi.sh```

@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-<img src="assets/mangobench.png" width="900px"/>
+<img src="assets/mango2.png" width="900px"/>
 
 
 

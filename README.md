@@ -82,5 +82,5 @@ We offer three algorithms for baselines.
 
 # Results
 <div align="center">
-<img src="assets/results.png" />
+<img src="assets/results.png" width="500px"/>
 </div>

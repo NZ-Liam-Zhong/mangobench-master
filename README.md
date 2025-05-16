@@ -64,7 +64,7 @@ run instead `pip install -e ".[train]"` in the root directory.
 
 ### How to run and evaluate
 We can directly run the code by running the bash file: ```bash impls/hyperparameters_multi.sh```
-The evaluation results will be added to ```/media/wy/mangobench/impls/exp```
+The evaluation results will be added to ```impls/exp```
 
 
 ### Algorithms

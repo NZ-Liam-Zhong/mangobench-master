@@ -30,6 +30,9 @@ MangoBench is a multi-agent goal-conditional offline RL benchmark. Our benchamrk
 
 MangoBench follow the environment and datasets of [OGBench](https://seohong.me/projects/ogbench/).
 
+### How to run and evaluate
+We can directly run the code by running the bash file: ```bash impls/hyperparameters_multi.sh```
+The evaluation results will be added to ```/media/wy/mangobench/impls/exp```
 
 
 ### Algorithms
@@ -39,8 +42,6 @@ We offer three algorithms for baselines.
 2. MAGCBC (Multi-agent Goal-Conditional Behaviour Cloning): Located in ```impls/agents/gcbc.py```
 3. IHIQL (Independent Hierarchical Implicit Q-Learning): Located in ```impls/agents/hiql.py```
 
-### How to run the code
-We can run the code by running the bash file: ```bash impls/hyperparameters_multi.sh```
 
 # WandB Evaluation
 <div align="center">
